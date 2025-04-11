@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  nav {
+    position: left;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem 2rem;
+    z-index: 1000;
+    top: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color: #fbfaf1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00f7ff;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: url('galaxy.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .welcome-text {
+    font-size: 6rem;
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  .intro-text {
+    font-size: 3rem;
+    margin-top: 1rem;
+    color: #FFD700;
+    opacity: 0;
+    animation: fadeIn 3s ease-out 1s forwards;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    margin-top: 2rem;
+    background-image: url('"C:\Users\A C E R\Downloads\galaxy.jpg"');
+  }
+  
+  .section h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #00f7ff;
+    margin-bottom: 1rem;
+    animation: fadeLeft 3s ease forwards; 
+  }
+  
+  .section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .section li {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #111;
+    margin-top: 2rem;
+    color: #aaa;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    0% {opacity: 0; transform: translateY(30px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  .right-img {
+    float: right;
+    margin-right: 20px;
+    max-width: 300px;
+  }
+  .section h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: #e3e361;
+    margin-bottom: rem;
+    animation: fadeLeft 3s ease forwards; 
+  }
+  
